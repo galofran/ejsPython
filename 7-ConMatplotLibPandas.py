@@ -19,10 +19,10 @@ try:
     moda_result = pd.read_sql(query_moda, connection)
     desviacion_result = pd.read_sql(query_desviacion, connection)
     
-    print(media_result["Media_Fuel_Price"][0])
+    """print(media_result["Media_Fuel_Price"][0])
     print(mediana_result["Mediana_Fuel_Price"][0])
     print(moda_result["Moda_Fuel_Price"][0])
-    print(desviacion_result["Desviacion_Estandar_Fuel_Price"][0])
+    print(desviacion_result["Desviacion_Estandar_Fuel_Price"][0])"""
     
     # Crear un DataFrame consolidado con los resultados
     
